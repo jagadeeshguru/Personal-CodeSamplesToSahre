@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Locate On Google Maps</title>
+    @Styles.Render("~/Content/css")
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <label class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </label>
+                @Html.ActionLink("Locate On Google Maps", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+<div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                </ul>
+            </div>
+<div>    
+            <form class="form-inline" role="form">
+                    <div class="form-group">
+                        <input class="form-control" id="City" type="text" placeholder="City" />
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="Latitude" type="text" placeholder="Longitude" />
+                    </div>
+                   <div class="form-group">
+                        <input class="form-control" id="Longitude" type="text" placeholder="Latitude" />
+                    </div>              
+                    <button class="btn" type="button" id="Search">Locate</button>
+                </form>   
+</div>        
+ 
+        </div>
+           
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year Public</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

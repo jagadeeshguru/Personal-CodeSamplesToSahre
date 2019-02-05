@@ -1,0 +1,51 @@
+﻿@model ActivistTaskLocator.Models.Activities
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Activities</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Activity)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Activity)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Date)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Date)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Address)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Address)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Organizer)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Organizer)
+    </div>
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Attending)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Attending)
+    </div>
+    
+
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>@ViewBag.Message</h2>
+</hgroup>
+
+<article>
+    <p>
+        This application is used to manage all the
+    </p>
+
+    <p>
+        activities and events conducted by DCCC to
+    </p>
+        support the campaign
+    <p>
+        .
+    </p>
+</article>
+
+<aside>
+    <h3>Quixk Links</h3>
+    <p>
+    </p>
+    <ul>
+        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+        <li>@Html.ActionLink("About", "About", "Home")</li>
+        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+    </ul>
+</aside>

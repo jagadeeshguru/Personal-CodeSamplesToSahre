@@ -1,0 +1,21 @@
+C:\Users\Guru\Documents\Visual Studio 2012\Projects\SmsApp\SmsApp\bin\Release\SmsApp.exe.config
+C:\Users\Guru\Documents\Visual Studio 2012\Projects\SmsApp\SmsApp\bin\Release\SmsApp.exe
+C:\Users\Guru\Documents\Visual Studio 2012\Projects\SmsApp\SmsApp\bin\Release\SmsApp.pdb
+C:\Users\Guru\Documents\Visual Studio 2012\Projects\SmsApp\SmsApp\bin\Release\JWT.dll
+C:\Users\Guru\Documents\Visual Studio 2012\Projects\SmsApp\SmsApp\bin\Release\Newtonsoft.Json.dll
+C:\Users\Guru\Documents\Visual Studio 2012\Projects\SmsApp\SmsApp\bin\Release\Twilio.dll
+C:\Users\Guru\Documents\Visual Studio 2012\Projects\SmsApp\SmsApp\bin\Release\Newtonsoft.Json.xml
+C:\Users\Guru\Documents\Visual Studio 2012\Projects\SmsApp\SmsApp\bin\Release\Twilio.xml
+C:\Users\Guru\Documents\Visual Studio 2012\Projects\SmsApp\SmsApp\obj\Release\SmsApp.csprojResolveAssemblyReference.cache
+C:\Users\Guru\Documents\Visual Studio 2012\Projects\SmsApp\SmsApp\obj\Release\MainWindow.baml
+C:\Users\Guru\Documents\Visual Studio 2012\Projects\SmsApp\SmsApp\obj\Release\MainWindow.g.cs
+C:\Users\Guru\Documents\Visual Studio 2012\Projects\SmsApp\SmsApp\obj\Release\App.g.cs
+C:\Users\Guru\Documents\Visual Studio 2012\Projects\SmsApp\SmsApp\obj\Release\SmsApp_MarkupCompile.cache
+C:\Users\Guru\Documents\Visual Studio 2012\Projects\SmsApp\SmsApp\obj\Release\SmsApp.g.resources
+C:\Users\Guru\Documents\Visual Studio 2012\Projects\SmsApp\SmsApp\obj\Release\SmsApp.Properties.Resources.resources
+C:\Users\Guru\Documents\Visual Studio 2012\Projects\SmsApp\SmsApp\obj\Release\SmsApp.csproj.GenerateResource.Cache
+C:\Users\Guru\Documents\Visual Studio 2012\Projects\SmsApp\SmsApp\obj\Release\SmsApp.exe
+C:\Users\Guru\Documents\Visual Studio 2012\Projects\SmsApp\SmsApp\obj\Release\SmsApp.pdb
+C:\Users\Guru\Desktop\DCCC Coding\Question1\SmsApp\SmsApp\bin\Release\SmsApp.exe.config
+C:\Users\Guru\Desktop\DCCC Coding\Question1\SmsApp\SmsApp\obj\Release\SmsApp.exe
+C:\Users\Guru\Desktop\DCCC Coding\Question1\SmsApp\SmsApp\obj\Release\SmsApp.pdb

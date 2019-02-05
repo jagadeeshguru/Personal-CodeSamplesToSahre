@@ -1,0 +1,18 @@
+﻿<Window x:Class="SmsApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label Content="To :" HorizontalAlignment="Left" Margin="37,92,0,0" VerticalAlignment="Top" Foreground="Red"/>
+        <TextBox x:Name="ToNumber" HorizontalAlignment="Left" Height="23" Margin="81,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140"/>
+        <Label Content="Message :" HorizontalAlignment="Left" Margin="0,140,0,0" VerticalAlignment="Top" Foreground="Red"/>
+        <TextBox x:Name="Message" HorizontalAlignment="Left" Height="95" Margin="81,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" TextChanged="TextBox_TextChanged"/>
+        <Button x:Name="SendButton" Content="Send" HorizontalAlignment="Left" Margin="110,266,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Label Content="From:" HorizontalAlignment="Left" Margin="27,61,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="Red"/>
+        <TextBox x:Name="FromNumber" HorizontalAlignment="Left" Height="23" Margin="81,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140"  Text="+16303814585"/>
+        <Image HorizontalAlignment="Left" Height="165" Margin="262,47,0,0" VerticalAlignment="Top" Width="230" Source="Images/sms.jpg" />
+        <Grid.Background>
+            <ImageBrush ImageSource="./Images/back.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+    </Grid>
+</Window>
